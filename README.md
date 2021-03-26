@@ -1,1 +1,3 @@
-# LP_demo
+# License Plate Recognition
+
+Run LP_demo.py
