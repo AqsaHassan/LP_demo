@@ -72,7 +72,7 @@ def lp():
         return  # and exit program
     # end if
 
-    imgOriginalScene = cv.imread("/opt/lampp/htdocs/UploadImage/uploads/1b.jpg")  # open image
+    imgOriginalScene = cv.imread("1b.jpg")  # open image
 
     if imgOriginalScene is None:  # if image was not read successfully
         print("\nerror: image not read from file \n\n")  # print error message to std out
